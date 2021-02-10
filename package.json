@@ -1,0 +1,14 @@
+{
+  "name": "untitled6",
+  "version": "1.0.0",
+  "description": "[x] JS & HTML files maken\r [x] JavaScript script file linken\r [ ] NPM init\r [ ]git init\r [ ] .gitignore maken\r [ ] Axios installeren\r [ ] Axios script linken\r [ ] Een async functie maken en aanroepen\r [ ] Request maken met axios\r [ ] \"Afwachten\" tot de data er is\r [ ] Data weergeven in de dom\r [ ] Lijst maken met een id\r [ ] Lijst selecteren\r [ ] Voor elke element in de array\r [ ] een li aanmaken\r [ ]textContent toevoegen\r [ ] li appenden",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
