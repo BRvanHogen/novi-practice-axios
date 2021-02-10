@@ -8,7 +8,10 @@ async function displayData() {
 
    for (const data of response.data) {
        console.log("data: ", data);
+       const listItem = document.createElement('li');
+
+       listItem.textContent = `${data.name} - ${data.details}`;
+       console.log(listItem);
    }
 }
-
 displayData();
