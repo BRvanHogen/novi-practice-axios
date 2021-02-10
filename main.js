@@ -5,6 +5,10 @@ async function displayData() {
    console.log("response: ", response.data);
    const dataList = document.getElementById("data-list");
    console.log(dataList);
+
+   for (const data of response.data) {
+       console.log("data: ", data);
+   }
 }
 
 displayData();
