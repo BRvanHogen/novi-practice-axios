@@ -12,6 +12,8 @@ async function displayData() {
 
        listItem.textContent = `${data.name} - ${data.details}`;
        console.log(listItem);
+
+       dataList.appendChild(listItem);
    }
 }
 displayData();
